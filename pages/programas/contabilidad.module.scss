@@ -1,0 +1,27 @@
+@import '../../styles/_variables.scss';
+
+.wrapperBannerConta{
+    padding: 2rem 0;
+    background-color: $color2;
+    color: $color3;
+}
+
+.wrapperConta{
+    h2, h5{
+        color: $color1;
+    }
+    p{
+        text-align: justify;
+        color: $color2;
+    }
+}
+// .lineaSeparador{
+//     height: 3px;
+//     width: 100%;
+//     background-color: $color1;
+// }
+.wrapperPlanaDocente{
+    h5{
+        color: $color1;
+    }
+}

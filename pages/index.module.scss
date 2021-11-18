@@ -1,0 +1,98 @@
+@import "../styles/_variables.scss";
+
+.wrapperCarreras {
+    color: $color3;
+    background-color: $color1;
+    p{
+        color: $color3;
+    }
+}
+.wrapperVentajas {
+    padding: 6rem 0;
+    h2 {
+        color: $color1;
+        //margin-bottom: 5rem;;
+    }
+    p{
+        color: $color2;
+    }
+    .iconVentaja {
+        -webkit-transition: -webkit-transform 0.5s ease;
+        -moz-transition: -moz-transform 0.5s ease;
+        transition: transform 0.5s ease;
+        &:hover {
+            -webkit-transform: scale(1.2);
+            -moz-transform: scale(1.2);
+            -o-transform: scale(1.2);
+            transform: scale(1.2);
+            // -webkit-transform-origin: top right;
+            // -moz-transform-origin: top right;
+            // -o-transform-origin: top right;
+            // transform-origin: top right;
+        }
+    }
+}
+.wrapperFrase {
+    text-align: center;
+    color: $color1;
+    background-color: $color3;
+    padding: 4rem;
+}
+.wrapperEgresados {
+    padding-top: 4rem;
+    color: $color2;
+    h2 {
+        color: $color1;
+    }
+    .cardEgresado {
+        transition: 0.4s;
+        color: $color2;
+
+        box-shadow: -1px 1px 5px 2px rgba(155, 150, 150, 0.2);
+        -webkit-box-shadow: -1px 1px 5px 2px rgba(155, 150, 150, 0.2);
+        -moz-box-shadow: -1px 1px 5px 2px rgba(155, 150, 150, 0.2);
+        &:hover {
+            background-color: $color1;
+            color: $color3;
+        }
+        p{
+            // text-align: justify;
+        }
+    }
+}
+
+.wrapperNoticias {
+    padding: 4rem 0rem;
+    background-color: $color3;
+    h2 {
+        color: $color1;
+    }
+    h5, p{
+        color: $color2;
+    }
+    
+}
+.wrapperMap {
+    // border: 1px solid red;
+    background-color: lighten($color3, 5);
+    h2 {
+        color: $color1;
+    }
+    p{
+        color: $color2;
+    }
+    .mapResponsive {
+        // border: 1px solid #000;
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        position: relative;
+        height: 900px;
+        iframe {
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+            position: absolute;
+        }
+    }
+}

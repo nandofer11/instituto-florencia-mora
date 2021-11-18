@@ -1,0 +1,35 @@
+@import '../../styles/variables.scss';
+
+.wrapperBannerBolsa{
+    padding: 2rem 0;
+    background-color: $color2;
+    color: $color3;
+}
+.wrapperBolsa{
+    p{
+        color: $color2;
+        text-align: justify;
+    }
+    h5{
+        color: $color1;
+    }
+    ul{
+        li{
+            color: $color2;
+        }
+    }
+    .wrapperBuzonBolsa{
+        text-align: center;
+        background-color: $color1;
+        color: $color3;
+        padding: 2rem;
+        border-radius: 20px;
+        h5{
+            color: $color3;
+        }
+        p{
+            margin-bottom: 0;
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,72 @@
+@import './_variables.scss';
+
+.app {
+  background-color: $backgroundColor;
+}
+
+thead.table-info{
+  color: red;
+  
+}
+thead th {
+  background-color: $color2 !important;
+  color: white;
+}
+
+//Custom styles dropdown
+.dropdown-item{
+  color: $color1 !important;
+}
+
+//Hover para los dropdowns en el menu
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0px;
+}
+.accordion{
+  color: $color2;
+}
+.accordion-button:not(.collapsed){
+  background-color: $color2 !important;
+  color: $color3 !important;
+}
+
+//MODIFICAR CLASES DE BOOTSTRAP
+//borde para botones
+$border-radius: 0;
+
+#floatingTextarea2{
+  height: 200px;
+}
+
+//color de link - navbar
+$list-group-bg:none;
+
+.navbar{
+  .navbar-nav{
+    .nav-item{
+      .nav-link{
+        color: $color3;
+        &:hover{
+          color: $color2;
+        }
+        &.active{
+          color: $color2;
+        }
+      }
+    }
+  }
+}
+
+//Background color tabs page Tramites
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
+  background-color: $color1 !important;
+}
+
+//color de fondo dropdown - navbar
+.dropdown-item:active {
+  background-color: green;
+  color: #fff;
+}
+
+@import '/node_modules/bootstrap/scss/bootstrap.scss';

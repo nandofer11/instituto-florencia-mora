@@ -1,0 +1,30 @@
+@import '../styles/variables.scss';
+
+.wrapperBannerAdmi{
+    padding: 2rem 0;
+    background-color: $color2;
+    color: $color3;
+}
+.wrapperDate{
+    text-align: center;
+    color: $color1;
+    padding: 1rem 0;
+    p{
+        .date{
+            font-size: 3rem;
+        }
+    }
+}
+.wrapperAdmi{
+    color: $color2;
+}
+.wrapperRequisitos{
+    padding: 2rem 0;
+    background-color: $color1;
+    color: $color3;
+}
+.wrapperProtocolos{
+    color: $color2;
+    padding: 2rem 0;
+    background-color: $color3;
+}

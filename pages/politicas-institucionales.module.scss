@@ -1,0 +1,13 @@
+@import '../styles/variables.scss';
+
+.wrapperBannerPoliticas{
+    padding: 2rem 0;
+    background-color: $color2;
+    color: $color3;
+}
+.wrapperPoliticas{
+    p{
+        color: $color2;
+        text-align: justify;        
+    }
+}

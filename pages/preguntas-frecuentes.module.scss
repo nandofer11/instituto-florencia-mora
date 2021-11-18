@@ -1,0 +1,16 @@
+@import '../styles/variables.scss';
+
+.wrapperBannerPreguntas{
+    padding: 2rem 0;
+    background-color: $color2;
+    color: $color3;
+}
+.wrapperPreguntasBuzon{
+    background-color: $color1;
+    color: $color3;
+    padding: 1rem;
+    border-radius: 10px;
+    p{
+        margin: 0;
+    }
+}

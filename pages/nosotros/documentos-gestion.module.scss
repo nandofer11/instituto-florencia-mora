@@ -1,0 +1,21 @@
+@import '../../styles/variables.scss';
+
+.wrapperDocGestion{
+    padding: 2rem 0;
+    background-color: $color2;
+    color: $color3;
+}
+.wrapperDocumentos{
+    p{
+        color: $color1;
+    }
+    table{
+        a{
+            color: $color2;
+            transition: .3s;
+            &:hover{
+                color: lighten($color2, 20);
+            }
+        }
+    }
+}

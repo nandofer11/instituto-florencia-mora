@@ -1,0 +1,11 @@
+@import '../../styles/variables.scss';
+
+.wrapperObjetivos{
+    h2{
+        color: $color1;
+    }
+    td, p{
+        color: $color2;
+    }
+}
+

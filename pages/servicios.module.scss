@@ -1,0 +1,13 @@
+@import '/styles/_variables.scss';
+
+.wrapperServ{
+    h2, h4{
+        color: $color1;
+    }
+}
+
+.lineaSeparador{
+    height: 3px;
+    width: 100%;
+    background-color: $color1;
+}

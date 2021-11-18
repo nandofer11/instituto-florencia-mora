@@ -1,0 +1,32 @@
+@import '../styles/_variables.scss';
+
+.wrapperNav {
+  color: $color3;
+  //background-color: darken($color1, 20%);
+  .nav-link{
+    color: $color3;
+  }
+  .redesSociales{
+    span{
+      font-style: italic;
+    }
+    .iconFb, .iconWsp, .iconInsta{
+      // color: #3b5998;
+      font-size: 1.3rem;
+      color: $color3;
+      transition: .5s;
+      &:hover{
+        color: $color2;
+      }
+    }
+    // .iconWsp{
+    //   // color: #128c7e;
+    //   font-size: 1.3rem;
+    //   color: $color3;
+    // }
+    // .iconInsta{
+    //   color: $color3;
+    //   font-size: 1.3rem;
+    // }
+  }
+}

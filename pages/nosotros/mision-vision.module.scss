@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+
+
+.wrapperMision {
+    padding: 4rem 0;
+    h2 {
+        color: $color1;
+    }
+    p{
+        color: $color2;
+    }
+}
+.wrapperVision {
+    padding: 4rem 0;
+    background-color: $color1;
+    color: $color3;
+}

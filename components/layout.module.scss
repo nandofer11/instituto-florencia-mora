@@ -1,0 +1,26 @@
+@import "../styles/_variables.scss";
+
+.wrapperHeader {
+    background-color: $color1;
+}
+
+.btnWhatsApp {
+    background: #25d366;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    color: #fff;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 50%;
+    line-height: 80px;
+    z-index: 999;
+    font-size: 28px;
+    &:hover {
+        background-color: lighten(#25d366, $amount: 3);
+        color: $color3;
+    }
+}

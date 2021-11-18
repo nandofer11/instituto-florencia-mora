@@ -1,0 +1,15 @@
+@import '../../styles/variables.scss';
+
+.wrapperBannerFormacion{
+    padding: 2rem 0;
+    background-color: $color2;
+    color: $color3;
+}
+.wrapperEspecialidades{
+    h2{
+        color: $color1;
+    }
+    h5,p{
+        color: $color2;
+    }
+}

@@ -1,0 +1,16 @@
+@import '/styles/_variables.scss';
+
+.wrapperBannerContacto{
+    padding: 2rem 0;
+    background-color: $color2;
+    color: $color3;
+}
+
+.wrapperContacto{    
+    h2, h4{
+        color: $color1;
+    }
+    p{
+        color: $color2;
+    }
+}

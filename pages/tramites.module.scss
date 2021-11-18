@@ -1,0 +1,19 @@
+@import '../styles/variables.scss';
+
+.wrapperBannerMesa{
+    padding: 2rem 0;
+    background-color: $color2;
+    color: $color3;
+}
+.wrapperTramites{
+    h5{
+        color: $color1;
+    }
+    p{
+        text-align: justify;
+        color: $color2;
+    }
+    ul{
+        color: $color2;
+    }
+}
