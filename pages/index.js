@@ -127,10 +127,10 @@ export default function Home() {
         </div>
         <section className="pt-5 pb-5" >
           <div className="container">
-            <div className="row align-items-center justify-content-center row-cols-1 row-cols-lg-3">
+            <div className="row justify-content-center row-cols-1 row-cols-lg-3 d-flex">
               
-              <div className="col-9 col-md-4 mb-4">
-                <div className={`${styles.cardEgresado} card card-body p-md-5`}>
+              
+                <div className={`${styles.cardEgresado} card card-body`}>
                   <div className="row">
                     <div className="col-8 col-sm-6 col-md-4 col-xl-3 ml-auto mr-auto">
                       <img alt="image" className="img-fluid rounded-circle" src="/img/egresado1.png" />
@@ -147,10 +147,10 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
+              
 
-              <div className="col-9 col-md-4 mb-4">
-                <div className={`${styles.cardEgresado} card card-body p-md-5`}>
+              
+                <div className={`${styles.cardEgresado} card card-body`}>
                   <div className="row">
                     <div className="col-8 col-sm-6 col-md-4 col-xl-3 ml-auto mr-auto">
                       <img alt="image" className="img-fluid rounded-circle" src="/img/egresado2.png" />
@@ -168,10 +168,10 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
+              
 
-              <div className="col-9 col-md-4 mb-4">
-                <div className={`${styles.cardEgresado} card card-body p-md-5`}>
+              
+                <div className={`${styles.cardEgresado} card card-body`}>
                   <div className="row">
                     <div className="col-8 col-sm-6 col-md-4 col-xl-3 ml-auto mr-auto">
                       <img alt="image" className="img-fluid rounded-circle" src="/img/egresado3.png" />
@@ -189,7 +189,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              </div>
+              
 
             </div>
           </div>
