@@ -21,6 +21,7 @@ export default function Enfermeria() {
                     <div className='d-flex flex-row justify-content-center align-items-center'>
                         <div className='me-5'>
                             <OwnImage src="/img/icon-enf.png" layout="fill" width="74px"></OwnImage>
+
                         </div>
                         <div>
                             <h1>ENFERMERÍA</h1>
@@ -55,8 +56,9 @@ export default function Enfermeria() {
                 </div>
 
                 <div className='row justify-content-center gx-5'>
-                    <div className='col-12 col-md-5'>
-                    <OwnImage src="/img/perfil-egresado-enfe.jpg" layout="fill" width="420px"></OwnImage>
+                    <div className={`${styles.wrapperPerfilEnf} col-12 col-md-5 py-4`}>
+                    <Image src="/img/perfil-egresado-enfe.jpg" width='420' height='264'/>
+                        {/* <OwnImage src="/img/perfil-egresado-enfe.jpg" layout="fill" width="420px"></OwnImage> */}
                         <h5 className='mt-3'>PERFIL DEL EGRESADO</h5>
                         <p>
                             Profesional técnico de nivel superior con competencias para planificar, organizar y realizar las actividades del
@@ -185,29 +187,29 @@ export default function Enfermeria() {
             </div>
 
             <div className={`${styles.wrapperPlanaDocente} container`}>
-            <div className='row my-5'>
+                <div className='row my-5'>
                     <h5 className='text-center my-5'>PLANA DOCENTE</h5>
-                    <div className='col-4 text-center mb-5'>
+                    <div className='col-12 col-md-4 text-center mb-5'>
                         <OwnImage src="/img/egresado3.png" layout="fill" width="150px"></OwnImage>
                         <p className='mt-2'>Lic. Isabel Gavidia Bermúdez</p>
                     </div>
-                    <div className='col-4 text-center mb-5'>
+                    <div className='col-12 col-md-4 text-center mb-5'>
                         <OwnImage src="/img/egresado3.png" layout="fill" width="150px"></OwnImage>
                         <p className='mt-2'>Lic. Isabel Gavidia Bermúdez</p>
                     </div>
-                    <div className='col-4 text-center mb-5'>
+                    <div className='col-12 col-md-4 text-center mb-5'>
                         <OwnImage src="/img/egresado3.png" layout="fill" width="150px"></OwnImage>
                         <p className='mt-2'>Lic. Isabel Gavidia Bermúdez</p>
                     </div>
-                    <div className='col-4 text-center'>
+                    <div className='col-12 col-md-4 text-center'>
                         <OwnImage src="/img/egresado3.png" layout="fill" width="150px"></OwnImage>
                         <p className='mt-2'>Lic. Isabel Gavidia Bermúdez</p>
                     </div>
-                    <div className='col-4 text-center'>
+                    <div className='col-12 col-md-4 text-center'>
                         <OwnImage src="/img/egresado3.png" layout="fill" width="150px"></OwnImage>
                         <p className='mt-2'>Lic. Isabel Gavidia Bermúdez</p>
                     </div>
-                    <div className='col-4 text-center'>
+                    <div className='col-12 col-md-4 text-center'>
                         <OwnImage src="/img/egresado3.png" layout="fill" width="150px"></OwnImage>
                         <p className='mt-2'>Lic. Isabel Gavidia Bermúdez</p>
                     </div>

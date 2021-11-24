@@ -32,14 +32,14 @@ export default function Contacto() {
       <div className={`${styles.wrapperContacto} container my-5`}>
         <div className='row'>
           <div className='col text-center'>
-            <Image src='/img/noticia1.png' width='400' height='300'/>
+            <Image src='/img/noticia1.png' width='400' height='300' />
           </div>
           <div className='row'>
 
             <h4 className='mb-5 text-center'>Ponemos a tu servicio los siguientes números de contacto.</h4>
 
             <div className='col-12 col-md-3 mb-5'>
-              
+
               <div>
                 <p className='fw-bolder mb-0'>Secretaría General Mesa de partes</p>
                 <p className='mb-0'><FontAwesomeIcon icon={['far', 'user']}></FontAwesomeIcon> Victor M. Morillo Tapia</p>
@@ -106,8 +106,33 @@ export default function Contacto() {
           </div>
         </div>
 
+        <div className='row justify-content-center my-4'>
+          <div className={`${styles.wrapperBannerVisitanos} col-7`}>
+
+            <div className='row'>
+              <div className='col'>
+                <p className="fw-bold fst-italic">Dirección:</p>
+                <p>José de la Torre Ugarte S/N (Plaza de Armas) <br />
+                  Florencia de Mora,Trujillo, Perú</p>
+              </div>
+              <div className='col'>
+                <p className="fw-bold fst-italic">Contacto:</p>
+                <p>942 884 208 | 945 256 268</p>
+              </div>
+              <div className='col'>
+                <p className="fw-bold fst-italic">Horario de atención:</p>
+                <p>Lun - Sáb : 8:00am a 5:00pm</p>
+              </div>
+
+            </div>
+
+
+          </div>
+        </div>
+
         <Aliados/>
       </div>
+
     </Layout>
 
   )

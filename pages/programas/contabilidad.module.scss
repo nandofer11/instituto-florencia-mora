@@ -15,6 +15,12 @@
         color: $color2;
     }
 }
+.wrapperPerfilEgre{
+    background-color: $color1;
+    p{
+        color: $color3;
+    }
+}
 // .lineaSeparador{
 //     height: 3px;
 //     width: 100%;
@@ -23,5 +29,8 @@
 .wrapperPlanaDocente{
     h5{
         color: $color1;
+    }
+    p{
+        color: $color2;
     }
 }

@@ -57,7 +57,7 @@ export default function Contabilidad() {
                 </div>
 
                 <div className='row justify-content-center gx-5'>
-                    <div className='col-12 col-md-5'>
+                    <div className={`${styles.wrapperPerfilEgre} col-12 col-md-5 py-4`}>
                     <OwnImage src="/img/perfil-egresado-conta.jpg" layout="fill" width="420px"></OwnImage>
                         <h5 className='mt-3'>PERFIL DEL EGRESADO</h5>
                         <p>

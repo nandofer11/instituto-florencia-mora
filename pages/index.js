@@ -59,7 +59,7 @@ export default function Home() {
       <div className={`${styles.wrapperCarreras} container-fluid pt-2`}>
         <div className='container text-center py-5'>
           <h2>NUESTRAS CARRERAS</h2>
-          <p className=''>Somos una Institución comprometida con el desarrollo de nuestra<br />
+          <p className='fs-5'>Somos una Institución comprometida con el desarrollo de nuestra<br />
             comunidad Florenciana. </p>
           <div className='row mt-5'>
             <div className='col-12 col-md-6'>
