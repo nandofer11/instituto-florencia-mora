@@ -38,5 +38,13 @@
         padding: 1rem;
         color: $color2;
         background-color: $color3;
+        a{
+            text-decoration: none;
+            color: $color2;
+            transition: .3s;
+            &:hover{
+                color: $color1;
+            }
+        }
     }
 }

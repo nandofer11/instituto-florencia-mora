@@ -10,9 +10,22 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Image from 'next/image'
 import OwnImage from '../components/Image'
 
-import Card from '../components/card'
+import React from 'react'
 
 export default function Home() {
+
+  const [noticias, setNoticias] = React.useState([]);
+
+  React.useEffect(() => {
+    const fetchNoticias = async () => {
+      const res = await fetch('http://localhost:1337/noticias');
+      const newNoticias = await res.json();
+      setNoticias(newNoticias);
+    };
+
+    fetchNoticias();
+  }, []);
+
   return (
     <Layout>
 
@@ -93,7 +106,7 @@ export default function Home() {
             </div>
             <div className={`col-12 col-md-3`}>
               <div className={`${styles.iconVentaja} mb-4`}>
-              <FontAwesomeIcon className='fa-4x ms-2' icon={'user-graduate'}></FontAwesomeIcon>
+                <FontAwesomeIcon className='fa-4x ms-2' icon={'user-graduate'}></FontAwesomeIcon>
                 <h4 className=''>Titulo a nombre de la Nación</h4>
               </div>
 
@@ -127,9 +140,9 @@ export default function Home() {
         </div>
         <section className="pt-5 pb-5" >
           <div className="container">
-            <div className="row justify-content-center row-cols-1 row-cols-lg-3 d-flex">
-              
-              
+            <div className="row justify-content-center align-items-stretch">
+
+              <div className='col'>
                 <div className={`${styles.cardEgresado} card card-body`}>
                   <div className="row">
                     <div className="col-8 col-sm-6 col-md-4 col-xl-3 ml-auto mr-auto">
@@ -147,9 +160,9 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              
+              </div>
 
-              
+              <div className='col'>
                 <div className={`${styles.cardEgresado} card card-body`}>
                   <div className="row">
                     <div className="col-8 col-sm-6 col-md-4 col-xl-3 ml-auto mr-auto">
@@ -168,9 +181,9 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              
+              </div>
 
-              
+              <div className='col'>
                 <div className={`${styles.cardEgresado} card card-body`}>
                   <div className="row">
                     <div className="col-8 col-sm-6 col-md-4 col-xl-3 ml-auto mr-auto">
@@ -178,7 +191,7 @@ export default function Home() {
                     </div>
                     <div className="col-md-8 mt-4 mt-md-0">
                       <p className="text-h3">
-                        "Soy Egresada de la especialidad de Enfermería del Instituto de
+                        "Mi nombre es María, soy Egresada de la especialidad de Enfermería del Instituto de
                         Educación Superior Tecnológico Público Florencia de Mora, tras años
                         de buena formación en esta excelente institución pude lograr nombrarme como
                         Enfermera."
@@ -189,7 +202,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-              
+              </div>
 
             </div>
           </div>
@@ -199,9 +212,39 @@ export default function Home() {
       <Aliados />
 
       <div className={`${styles.wrapperNoticias} container-fluid`}>
-        <div className='container  text-center'>
-          <h2 className=''>NOTICIAS</h2>
+
+        
+
+        <div className='container text-center'>
+        <h2 className=''>NOTICIAS</h2>
           <p className='pb-5 fs-5'>Conoce las diversas actividades que se desarrollan en nuestra institución educativa.</p>
+
+          <div className='row d-flex'>
+            {noticias.map(noticia => {
+              return (
+
+                <div className='col '>
+                  <Link href={`/noticias/[id]`} as={`/noticias/${noticia.id}`} key={noticia.id}>
+                    <a>
+                      <OwnImage src="/img/nt1.jpeg" layout="fill" width="252px"></OwnImage>
+                      <h5 className='mt-3'>{noticia.titulo}</h5>
+                      <p>{noticia.contenido.slice(0, 200) + ' ...'}</p>
+                    </a>
+                  </Link>
+                </div>
+
+
+              )
+            })}
+          </div>
+        </div>
+
+
+
+
+
+        {/* <div className='container  text-center'>
+         
           <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3'>
             <div className='col'>
               <OwnImage src="/img/nt1.jpeg" layout="fill" width="352px"></OwnImage>
@@ -225,7 +268,9 @@ export default function Home() {
                 casa de estudios y a nuestros apreciados estudiantes de este noble programa de estudios.</p>
             </div>
           </div>
-        </div>
+        </div> */}
+
+
       </div>
       <div className={`${styles.wrapperMap} container-fluid`}>
         <div className='row row-cols-1 row-cols-sm-2 row-cols-md-2'>
@@ -260,3 +305,5 @@ export default function Home() {
 
   )
 }
+
+

@@ -1,0 +1,11 @@
+@import '../styles/variables.scss';
+
+.wrapperNoti{
+    color: $color2;
+    h4{
+        color: $color1;
+    }
+    p{
+        text-align: justify;
+    }
+}

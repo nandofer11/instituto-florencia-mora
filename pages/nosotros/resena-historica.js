@@ -36,91 +36,91 @@ export default function ReseñaHistorica() {
         <div>
           <div className="row mt-4">
 
-            <div class={styles.timeline}>
-              <div class={`${styles.container_timeline} ${styles.left}`}>
-                <div class={`${styles.date}`}>1989</div>
-                <i class={`${styles.icon}`}></i>
-                <div class={`${styles.content}`}>
+            <div className={styles.timeline}>
+              <div className={`${styles.container_timeline} ${styles.left}`}>
+                <div className={`${styles.date}`}>1989</div>
+                <i className={`${styles.icon}`}></i>
+                <div className={`${styles.content}`}>
                   <h2>Ing. José Yengle Isla.</h2>
                   
                 </div>
               </div>
-              <div class={`${styles.container_timeline} ${styles.right}`}>
-                <div class={`${styles.date}`}>1990</div>
-                <i class={`${styles.icon}`}></i>
-                <div class={`${styles.content}`}>
+              <div className={`${styles.container_timeline} ${styles.right}`}>
+                <div className={`${styles.date}`}>1990</div>
+                <i className={`${styles.icon}`}></i>
+                <div className={`${styles.content}`}>
                   <h2>Profesor Walter Minner Castro Gómez</h2>
                   <h2>Profesor Roberto Huamanchumo Arroyo</h2>
                   <h2>Profesor Luis Estuardo Pozo Ríos</h2>
                 </div>
               </div>
-              <div class={`${styles.container_timeline} ${styles.left}`}>
-                <div class={`${styles.date}`}>93-96</div>
-                <i class={`${styles.icon}`}></i>
-                <div class={`${styles.content}`}>
+              <div className={`${styles.container_timeline} ${styles.left}`}>
+                <div className={`${styles.date}`}>93-96</div>
+                <i className={`${styles.icon}`}></i>
+                <div className={`${styles.content}`}>
                   <h2>Lic. Ed. Félix Rodríguez Vera</h2>
                 </div>
               </div>
-              <div class={`${styles.container_timeline} ${styles.right}`}>
-                <div class={`${styles.date}`}>1997</div>
-                <i class={`${styles.icon}`}></i>
-                <div class={`${styles.content}`}>
+              <div className={`${styles.container_timeline} ${styles.right}`}>
+                <div className={`${styles.date}`}>1997</div>
+                <i className={`${styles.icon}`}></i>
+                <div className={`${styles.content}`}>
                   <h2>CPC Luciano Aredo Ñique</h2>
                 </div>
               </div>
-              <div class={`${styles.container_timeline} ${styles.left}`}>
-                <div class={`${styles.date}`}>1998</div>
-                <i class={`${styles.icon}`}></i>
-                <div class={`${styles.content}`}>
+              <div className={`${styles.container_timeline} ${styles.left}`}>
+                <div className={`${styles.date}`}>1998</div>
+                <i className={`${styles.icon}`}></i>
+                <div className={`${styles.content}`}>
                   <h2>Profesora Carmen Carbonell García</h2>
                 </div>
               </div>
-              <div class={`${styles.container_timeline} ${styles.right}`}>
-                <div class={`${styles.date}`}>2008</div>
-                <i class={`${styles.icon}`}></i>
-                <div class={`${styles.content}`}>
+              <div className={`${styles.container_timeline} ${styles.right}`}>
+                <div className={`${styles.date}`}>2008</div>
+                <i className={`${styles.icon}`}></i>
+                <div className={`${styles.content}`}>
                   <h2>Eco. Gregorio H. Lujan Burgos</h2>
                 </div>
               </div>
-              <div class={`${styles.container_timeline} ${styles.left}`}>
-                <div class={`${styles.date}`}>2010</div>
-                <i class={`${styles.icon}`}></i>
-                <div class={`${styles.content}`}>
+              <div className={`${styles.container_timeline} ${styles.left}`}>
+                <div className={`${styles.date}`}>2010</div>
+                <i className={`${styles.icon}`}></i>
+                <div className={`${styles.content}`}>
                   <h2>Ms CPC Marina Venegas Medina</h2>
                 </div>
               </div>
-              <div class={`${styles.container_timeline} ${styles.right}`}>
-                <div class={`${styles.date}`}>2016</div>
-                <i class={`${styles.icon}`}></i>
-                <div class={`${styles.content}`}>
+              <div className={`${styles.container_timeline} ${styles.right}`}>
+                <div className={`${styles.date}`}>2016</div>
+                <i className={`${styles.icon}`}></i>
+                <div className={`${styles.content}`}>
                   <h2>Lic. Enf. Iris A. Gutiérrez Rodríguez</h2>
                 </div>
               </div>
-              <div class={`${styles.container_timeline} ${styles.left}`}>
-                <div class={`${styles.date}`}>2017</div>
-                <i class={`${styles.icon}`}></i>
-                <div class={`${styles.content}`}>
+              <div className={`${styles.container_timeline} ${styles.left}`}>
+                <div className={`${styles.date}`}>2017</div>
+                <i className={`${styles.icon}`}></i>
+                <div className={`${styles.content}`}>
                   <h2>Mg. Lic. Enf. Maribel Yesenia Ibañez Escobedo</h2>
                 </div>
               </div>
-              <div class={`${styles.container_timeline} ${styles.right}`}>
-                <div class={`${styles.date}`}>2018</div>
-                <i class={`${styles.icon}`}></i>
-                <div class={`${styles.content}`}>
+              <div className={`${styles.container_timeline} ${styles.right}`}>
+                <div className={`${styles.date}`}>2018</div>
+                <i className={`${styles.icon}`}></i>
+                <div className={`${styles.content}`}>
                   <h2>Mg. Lic. Enf. Mercedes Edita Robles León</h2>
                 </div>
               </div>
-              <div class={`${styles.container_timeline} ${styles.left}`}>
-                <div class={`${styles.date}`}>2019</div>
-                <i class={`${styles.icon}`}></i>
-                <div class={`${styles.content}`}>
+              <div className={`${styles.container_timeline} ${styles.left}`}>
+                <div className={`${styles.date}`}>2019</div>
+                <i className={`${styles.icon}`}></i>
+                <div className={`${styles.content}`}>
                   <h2>Dra. Obst. Elsi Evelin Vásquez Alvarez</h2>
                 </div>
               </div>
-              <div class={`${styles.container_timeline} ${styles.right}`}>
-                <div class={`${styles.date}`}>2021</div>
-                <i class={`${styles.icon}`}></i>
-                <div class={`${styles.content}`}>
+              <div className={`${styles.container_timeline} ${styles.right}`}>
+                <div className={`${styles.date}`}>2021</div>
+                <i className={`${styles.icon}`}></i>
+                <div className={`${styles.content}`}>
                   <h2>Mg. Lic. Enf. Maribel Yesenia Ibañez Escobedo</h2>
                 </div>
               </div>
