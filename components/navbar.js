@@ -46,8 +46,8 @@ export default function Navbar() {
       </div>
       <nav className="navbar navbar-expand-lg navbar-light">
 
-        <Link href='/'>
-          <a className="navbar-brand" href="#">
+        <Link legacyBehavior href='/'>
+          <a>
             <Image
               src='/img/logo.png' // Route of the image file
               height={95} // Desired size with correct aspect ratio
@@ -62,7 +62,7 @@ export default function Navbar() {
         <div className="collapse navbar-collapse justify-content-center" id="navbarContent">
           <ul className="navbar-nav mb-2 mb-lg-0 ">
             <li className="nav-item">
-              <Link href='/'>
+              <Link legacyBehavior href='/'>
                 <a className={router.pathname == '/' ? 'nav-link active' : 'nav-link'} aria-current="page">Inicio</a>
               </Link>
             </li>
@@ -73,23 +73,23 @@ export default function Navbar() {
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <Link href="/nosotros/personal-directivo">
+                  <Link legacyBehavior href="/nosotros/personal-directivo">
                     <a className='dropdown-item'>Personal Directivo</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/nosotros/mision-vision">
+                  <Link legacyBehavior href="/nosotros/mision-vision">
                     <a className='dropdown-item'>Misión y Visión</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/nosotros/resena-historica">
+                  <Link legacyBehavior href="/nosotros/resena-historica">
                     <a className='dropdown-item'>Reseña Histórica</a>
                   </Link>
                 </li>
 
                 <li>
-                  <Link href="/nosotros/objetivos-estrategicos">
+                  <Link legacyBehavior href="/nosotros/objetivos-estrategicos">
                     <a className='dropdown-item'>Objetivos Estratégicos</a>
                   </Link>
                 </li>
@@ -99,7 +99,7 @@ export default function Navbar() {
                     </Link>
                   </li> */}
                 <li>
-                  <Link href="/nosotros/documentos-gestion">
+                  <Link legacyBehavior href="/nosotros/documentos-gestion">
                     <a className='dropdown-item'>Documentos de Gestión</a>
                   </Link>
                 </li>
@@ -112,12 +112,12 @@ export default function Navbar() {
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <Link href="/programas/contabilidad">
+                  <Link legacyBehavior href="/programas/contabilidad">
                     <a className='dropdown-item'>Contabilidad</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/programas/enfermeria">
+                  <Link legacyBehavior href="/programas/enfermeria">
                     <a className='dropdown-item'>Enfermería</a>
                   </Link>
                 </li>
@@ -125,12 +125,12 @@ export default function Navbar() {
               </ul>
             </li>
             <li className="nav-item">
-              <Link href='/transparencia'>
+              <Link legacyBehavior href='/transparencia'>
                 <a className={router.pathname == '/transparencia' ? 'nav-link active' : 'nav-link'} aria-disabled="true">Transparencia</a>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href='/tramites'>
+              <Link legacyBehavior href='/tramites'>
                 <a className={router.pathname == '/tramites' ? 'nav-link active' : 'nav-link'} aria-disabled="true">Trámites</a>
               </Link>
             </li>
@@ -141,7 +141,7 @@ export default function Navbar() {
               </a>
               <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li>
-                  <Link href="/servicios/formacion-continua">
+                  <Link legacyBehavior href="/servicios/formacion-continua">
                     <a className="dropdown-item">Formación Continua</a>
                   </Link>
                 </li>
@@ -156,12 +156,12 @@ export default function Navbar() {
                   </Link>
                 </li> */}
                 <li>
-                  <Link href="/servicios/bolsa-trabajo">
+                  <Link legacyBehavior href="/servicios/bolsa-trabajo">
                     <a className="dropdown-item">Bolsa de Trabajo</a>
                   </Link>
                 </li>
                 <li>
-                  <Link href="/servicios/libro-reclamaciones">
+                  <Link legacyBehavior href="/servicios/libro-reclamaciones">
                     <a className="dropdown-item">Libro de reclamación</a>
                   </Link>
                 </li>
@@ -180,12 +180,12 @@ export default function Navbar() {
 
 
             <li className="nav-item">
-              <Link href='/admision'>
+              <Link legacyBehavior href='/admision'>
                 <a className={router.pathname == '/admision' ? 'nav-link active' : 'nav-link'} aria-disabled="true">Admisión</a>
               </Link>
             </li>
             <li className="nav-item">
-              <Link href='/contacto'>
+              <Link legacyBehavior href='/contacto'>
                 <a className={router.pathname == '/contacto' ? 'nav-link active' : 'nav-link'} aria-disabled="true">Contacto</a>
               </Link>
             </li>

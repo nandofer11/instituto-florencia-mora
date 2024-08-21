@@ -16,15 +16,15 @@ export default function Home() {
 
   const [noticias, setNoticias] = React.useState([]);
 
-  React.useEffect(() => {
-    const fetchNoticias = async () => {
-      const res = await fetch('http://localhost:1337/noticias');
-      const newNoticias = await res.json();
-      setNoticias(newNoticias);
-    };
+  // React.useEffect(() => {
+  //   const fetchNoticias = async () => {
+  //     const res = await fetch('http://localhost:1337/noticias');
+  //     const newNoticias = await res.json();
+  //     setNoticias(newNoticias);
+  //   };
 
-    fetchNoticias();
-  }, []);
+  //   fetchNoticias();
+  // }, []);
 
   return (
     <Layout>
@@ -64,7 +64,7 @@ export default function Home() {
           <div className='row mt-5'>
             <div className='col-12 col-md-6'>
               <Image src='/img/contabilidad.png' width='300' height='300' /> <br />
-              <Link href='/programas/contabilidad'>
+              <Link legacyBehavior href='/programas/contabilidad'>
                 <a className='my-4 btn btn-danger'>
                   Contabilidad
                 </a>
@@ -72,7 +72,7 @@ export default function Home() {
             </div>
             <div className='col-12 col-md-6'>
               <Image src='/img/enfermeria.png' width='300' height='300' /> <br />
-              <Link href='/programas/enfermeria'>
+              <Link legacyBehavior href='/programas/enfermeria'>
                 <a className='my-4 btn btn-danger'>
                   Enfermeria
                 </a>
@@ -238,37 +238,6 @@ export default function Home() {
             })}
           </div>
         </div>
-
-
-
-
-
-        {/* <div className='container  text-center'>
-         
-          <div className='row row-cols-1 row-cols-sm-2 row-cols-md-3'>
-            <div className='col'>
-              <OwnImage src="/img/nt1.jpeg" layout="fill" width="352px"></OwnImage>
-              <h5 className='mt-4'>Ceremonia de Titulación, ex-alumnas de Enfermería Técnica y Contabilidad</h5>
-              <p>Fecha: 03/09/2021</p>
-              <p>Feliz día a todas y todos los técnicos profesionales egresados de nuestra prestigiosa
-                casa de estudios y a nuestros apreciados estudiantes de este noble programa de estudios.</p>
-            </div>
-            <div className='col'>
-              <OwnImage src="/img/nt2.jpg" layout="fill" width="352px"></OwnImage>
-              <h5 className='mt-4'>ISTFM pide apoyo a colegios de Ingenieros y Arquitectos</h5>
-              <p>Fecha: 13/09/2021</p>
-              <p>Para elaborar expediente técnico de proyecto de inversión para mejorar su infraestructura
-                y modernización a fin de lograr licenciamiento. Ante el casi nulo interés del alcalde</p>
-            </div>
-            <div className='col'>
-              <OwnImage src="/img/nt3.png" layout="fill" width="352px"></OwnImage>
-              <h5 className='mt-4'>Feliz día técnicos de Enfermería <br /> del IESTP</h5>
-              <p>Fecha: 12/08/2021</p>
-              <p>Feliz día a todas y todos los técnicos profesionales egresados de nuestra prestigiosa
-                casa de estudios y a nuestros apreciados estudiantes de este noble programa de estudios.</p>
-            </div>
-          </div>
-        </div> */}
 
 
       </div>

@@ -33,17 +33,17 @@ export default function Footer() {
 
                                 </li>
                                 <li className='nav-item'>
-                                    <Link href='/nosotros/resena-historica'>
+                                    <Link legacyBehavior href='/nosotros/resena-historica'>
                                         <a className='nav-link text-light'>Reseña Histórica</a>
                                     </Link>
                                 </li>
                                 <li className='nav-item'>
-                                    <Link href='/nosotros/objetivos-estrategicos'>
+                                    <Link legacyBehavior href='/nosotros/objetivos-estrategicos'>
                                         <a className='nav-link text-light'>Objetivos estratégicos</a>
                                     </Link>
                                 </li>
                                 <li className='nav-item'>
-                                    <Link href='/nosotros/documentos-gestion'>
+                                    <Link legacyBehavior href='/nosotros/documentos-gestion'>
                                         <a className='nav-link text-light'>Documentos de Gestión</a>
                                     </Link>
                                 </li>
@@ -80,12 +80,12 @@ export default function Footer() {
 
                                 </li>
                                 <li className='nav-item'>
-                                    <Link href='/tramites'>
+                                    <Link legacyBehavior href='/tramites'>
                                         <a className='nav-link text-light'>Trámites</a>
                                     </Link>
                                 </li>
                                 <li className='nav-item'>
-                                    <Link href='/servicios/libro-reclamaciones'>
+                                    <Link legacyBehavior href='/servicios/libro-reclamaciones'>
                                         <a className='nav-link text-light'>Libro de reclamaciones</a>
                                     </Link>
                                 </li>

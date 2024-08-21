@@ -33,7 +33,7 @@ export default function Admision() {
                     <div className='col-12 col-md-6'>
                         <Image src='/img/contable1.jpeg' width='460' height='241' /> <br />
                         <h5 className='mb-0'>CONTABILIDAD: ESPECIALIACIÓN CORPORATIVO</h5>
-                        <Link href='/programas/contabilidad'>
+                        <Link legacyBehavior href='/programas/contabilidad'>
                             <a className='mt-4 btn btn-danger'>
                                 Más información
                             </a>
@@ -42,7 +42,7 @@ export default function Admision() {
                     <div className='col-12 col-md-6'>
                         <Image src='/img/enfermera1.jpg' width='460' height='241' /> <br />
                         <h5 className='mb-0'>ENFERMERÍA: ESPECIALIACIÓN CLÍNICA</h5>
-                        <Link href='/programas/enfermeria'>
+                        <Link legacyBehavior href='/programas/enfermeria'>
                             <a className='mt-4 btn btn-danger'>
                                 Más información
                             </a>

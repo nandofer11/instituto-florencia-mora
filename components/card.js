@@ -1,9 +1,7 @@
 import Image from 'next/image'
-import Link from 'next/link'
 
 import styles from './card.module.scss'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Card() {
     return (

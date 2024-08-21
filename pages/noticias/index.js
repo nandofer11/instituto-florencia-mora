@@ -8,7 +8,7 @@ export default function Noticias({noticias}){
                 {
                     noticias.map(noticia=>{
                         return(
-                            <Link href={`/noticias/[id]`} as={`/noticias/${noticia.id}`} key={noticia.id}>
+                            <Link legacyBehavior href={`/noticias/[id]`} as={`/noticias/${noticia.id}`} key={noticia.id}>
                                 <a>
                                     <h3>{noticia.titulo}</h3>
                                     <p>{noticia.contenido}</p>
