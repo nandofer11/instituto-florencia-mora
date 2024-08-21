@@ -1,5 +1,8 @@
 Este es un proyecto con [Next.js](https://nextjs.org/).
 
+![Captura de pantalla 2024-08-20 225953](https://github.com/user-attachments/assets/6bcaa98d-44af-4776-8b23-5ed3b8d11e17)
+
+
 ## Getting Started
 
 - Instalar las dependencias del proyecto con
